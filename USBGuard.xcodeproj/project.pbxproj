@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E32DFF3F737AF173B9AD9E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216F03AD4F24059C8CC83F6 /* MainView.swift */; };
+		4418A7CF187CC08795A6E197 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B223664805DDC95F978AD1B /* SettingsView.swift */; };
+		44FEFEC3E93EA47163DCA91E /* ProcessMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B06E0D4927ACB3BE6DDED /* ProcessMonitor.swift */; };
+		747B9D16796608B9363DC0CF /* USBGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E034DB28BD74B6098E5ACA /* USBGuardApp.swift */; };
+		D411BB10EAAE43D50C0C8617 /* WarningWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474D9436671F91E28FF76EC1 /* WarningWindow.swift */; };
+		F68B37AE910BBA95E1142FB7 /* DriveMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A623E12DA366F68CAC8FDC4 /* DriveMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0216F03AD4F24059C8CC83F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0400C0DB4F58406067F36689 /* USBGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		474D9436671F91E28FF76EC1 /* WarningWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningWindow.swift; sourceTree = "<group>"; };
+		5B223664805DDC95F978AD1B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6A623E12DA366F68CAC8FDC4 /* DriveMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveMonitor.swift; sourceTree = "<group>"; };
+		B1E034DB28BD74B6098E5ACA /* USBGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBGuardApp.swift; sourceTree = "<group>"; };
+		BF4B06E0D4927ACB3BE6DDED /* ProcessMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3B65DCBD55430C2D091E0193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0400C0DB4F58406067F36689 /* USBGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7484A2782BB69CE441E27F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B1E034DB28BD74B6098E5ACA /* USBGuardApp.swift */,
+				7AD8DAB79702AAB1AF3C0119 /* Models */,
+				AA97EE5981352CDA298D89A7 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7AD8DAB79702AAB1AF3C0119 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A623E12DA366F68CAC8FDC4 /* DriveMonitor.swift */,
+				BF4B06E0D4927ACB3BE6DDED /* ProcessMonitor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AD4AEAF2877B1C2B2FB2771 = {
+			isa = PBXGroup;
+			children = (
+				6C7484A2782BB69CE441E27F /* Sources */,
+				3B65DCBD55430C2D091E0193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA97EE5981352CDA298D89A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0216F03AD4F24059C8CC83F6 /* MainView.swift */,
+				5B223664805DDC95F978AD1B /* SettingsView.swift */,
+				474D9436671F91E28FF76EC1 /* WarningWindow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9684642414BCACC3C274804F /* USBGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E2FC9890C6AB44CD6F6159 /* Build configuration list for PBXNativeTarget "USBGuard" */;
+			buildPhases = (
+				36E85D3039DF6A2535007C4B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBGuard;
+			packageProductDependencies = (
+			);
+			productName = USBGuard;
+			productReference = 0400C0DB4F58406067F36689 /* USBGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA6E846C077015D8564694B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 2DD82E7680182A1B7B0E3BCB /* Build configuration list for PBXProject "USBGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9AD4AEAF2877B1C2B2FB2771;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B65DCBD55430C2D091E0193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9684642414BCACC3C274804F /* USBGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E85D3039DF6A2535007C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B37AE910BBA95E1142FB7 /* DriveMonitor.swift in Sources */,
+				0E32DFF3F737AF173B9AD9E4 /* MainView.swift in Sources */,
+				44FEFEC3E93EA47163DCA91E /* ProcessMonitor.swift in Sources */,
+				4418A7CF187CC08795A6E197 /* SettingsView.swift in Sources */,
+				747B9D16796608B9363DC0CF /* USBGuardApp.swift in Sources */,
+				D411BB10EAAE43D50C0C8617 /* WarningWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4456EA4D922CC82983C0C2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BBBE017B771FDD36E4CAE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA45F008EBA858C65FFBEDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usbguard.USBGuard;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA4F0E235C5B0C94317E7E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usbguard.USBGuard;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD82E7680182A1B7B0E3BCB /* Build configuration list for PBXProject "USBGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4456EA4D922CC82983C0C2BC /* Debug */,
+				6BBBE017B771FDD36E4CAE2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80E2FC9890C6AB44CD6F6159 /* Build configuration list for PBXNativeTarget "USBGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4F0E235C5B0C94317E7E12 /* Debug */,
+				CA45F008EBA858C65FFBEDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DA6E846C077015D8564694B /* Project object */;
+}

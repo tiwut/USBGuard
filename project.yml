@@ -1,0 +1,14 @@
+name: USBGuard
+options:
+  bundleIdPrefix: com.usbguard
+targets:
+  USBGuard:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources: [Sources]
+    info:
+      path: Info.plist
+      properties:
+        LSUIElement: true
+        NSPrincipalClass: NSApplication
